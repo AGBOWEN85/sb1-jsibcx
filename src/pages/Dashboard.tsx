@@ -42,7 +42,7 @@ function Dashboard() {
             <XAxis dataKey="month" />
             <YAxis />
             <Tooltip />
-            <Line type="monotone" dataKey="revenue" stroke="#3182ce" />
+            <Line type="monotone" dataKey="revenue" stroke="#3182ce" strokeWidth={2} isAnimationActive={false} />
           </LineChart>
         </ResponsiveContainer>
       </Box>
